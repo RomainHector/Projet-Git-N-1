@@ -7,7 +7,7 @@
     <title>Projet Git n°1</title>
 
 </head>
-<body>
+<body class="bg-secondary">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <a class="navbar-brand text-white" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,8 +67,11 @@
     <div class="container" style="min-height: 50vh">
 
 
-        <h1>Projet Git n°1 /!\ il faut pas modifier le titre</h1>
-            <img src="5c92adfe2000004b05710beb.jpeg" alt="">
+        <h1 class="text-center border bg-info p-3">Projet Git n°1 /!\ il faut pas modifier le titre</h1>
+        <div class="col-md-8 mx-auto m-2">
+            <img class="img-thumbnail" src="5c92adfe2000004b05710beb.jpeg" alt="">
+
+        </div>
 
 
         <div class="row col-md-8 mx-auto border border-dark rounded p-4 my-4">
