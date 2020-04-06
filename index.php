@@ -66,7 +66,10 @@
 
     <div class="container" style="min-height: 50vh">
 
-        <hr><h1 class='text-center'>Projet Git n°1 /!\ il faut pas modifier le titre</h1>
+
+        <h1>Projet Git n°1 /!\ il faut pas modifier le titre</h1>
+            <img src="5c92adfe2000004b05710beb.jpeg" alt="">
+
 
         <div class="row col-md-8 mx-auto border border-dark rounded p-4 my-4">
             <div class="col-md-3 bg-info">C'est la zone 1 </div>
@@ -85,7 +88,7 @@
             <button type="submit" class="btn btn-danger"> Buvez !!</button>
             </form>
         </div>
-    
+
     </div>
 
     <footer class="bg-dark text-center p-4 text-danger">
