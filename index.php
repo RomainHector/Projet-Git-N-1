@@ -26,25 +26,33 @@
     </nav>
 
     <div class="container">
-        <h1>Projet Github Greg (mon titre est beaucoup mieux)</h1>
 
-        <form class="col-md-6 mx-auto">
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Objet</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-    
+        <h1>Projet Git n°1 /!\ il faut pas modifier le titre</h1>
+
+        <div class="row border border-dark p-4">
+            <div class="col-md-3 bg-info">C'est la zone 1 </div>
+            <div class="col-md-6 border">Greg addore le confinement</div>
+            <div class="col-md-3 bg-danger">Zone 3</div>
+        </div>
+        <div class="row bg-secondary m-1 p-2" style="height: 50vh">
+            <form action="" method="POST" class="form">
+            <select class="form-control form-control-lg text-center">
+                <option>Choisis ta boisson 5L</option>
+                <option value="">La bière</option>
+                </select>
+                <select class="form-control text-center">
+                <option>2L</option>
+                </select>
+                <select class="form-control form-control-sm text-center">
+                <option>1L</option>
+            </select>
+            <button type="submit" class="btn btn-danger"> bouton !</button>
+            </form>
+        </div>
+      
+        <footer class="bg-dark text-center p-4 text-danger">
+            A toi de jouer !
+        </footer>
     </div>
 
     <footer class="bg-dark text-center p-4 text-danger">
