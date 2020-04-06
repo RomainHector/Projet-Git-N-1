@@ -28,6 +28,7 @@
     <div class="container">
 
         <h1>Projet Git n°1 /!\ il faut pas modifier le titre</h1>
+            <img src="5c92adfe2000004b05710beb.jpeg" alt="">
 
         <div class="row border border-dark p-4">
             <div class="col-md-3 bg-info">C'est la zone 1 </div>
