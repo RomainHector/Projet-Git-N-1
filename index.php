@@ -8,8 +8,25 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+    </div>
+    </nav>
 
     <div class="container">
+
         <h1>Projet Git n°1 /!\ il faut pas modifier le titre</h1>
 
         <div class="row border border-dark p-4">
@@ -36,7 +53,10 @@
         <footer class="bg-dark text-center p-4 text-danger">
             A toi de jouer !
         </footer>
-    
     </div>
+
+    <footer class="bg-dark text-center p-4 text-danger">
+        A toi de jouer !
+    </footer>
 </body>
 </html>
